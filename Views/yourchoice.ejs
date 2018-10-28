@@ -1,0 +1,31 @@
+<% include Header.ejs %>
+<title>YourChoice</title>
+<link rel="stylesheet" type="text/css" href="/CSS/YourChoice.css">
+
+<div class="container">
+        <div class="row">
+                <h1 class="w">SEMESTER 1</h1>
+
+                <div class="col-md-4"></div>
+                <div class="col-md-6">
+                        <form class="form-group">
+                                <p id="se"> Data Base Management:</p>
+                                <input type="text" class="form-control" name="Subject_1" id="Subject_1" placeholder="Enter grade for subject 1...">
+                                <p id="se">Web Apps:</p>
+                                <input type="text" class="form-control" name="Subject_2" id="Subject_2" placeholder="Enter grade for subject 2...">
+                                <p id="se">Oops:</p>
+                                <input type="text" class="form-control" name="Subject_3" id="Subject_3" placeholder="Enter grade for subject 3...">
+                                <br>
+                                <p id="se">Your Grade for semester 1 is:</p>
+                                <p id="dem"> </p>
+                                <button class="btn btn-primary " onclick="calculate_gpa()" type="button" value="Submit">Submit</button>
+                        </form>
+                </div>
+        </div>
+</div>
+
+</body>
+
+</head>
+
+</html>

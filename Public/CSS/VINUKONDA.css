@@ -1,0 +1,107 @@
+
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid gray;
+	color:white;
+    border-collapse: collapse;
+	padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+body {
+    background-image: url("/Images/images.jpg");
+	background-size:fill;    
+}
+#h01 {
+   background-color: yellow;
+   font-family:Lucida Calligraphy;
+   max-width:550px;
+   text-align:left;
+}
+.head-class {
+	text-align:center;
+	text-decoration:underline;
+	max-width:550px;
+	background-color: blue;
+}
+
+#future-section {
+	background-color:Tomato;
+	font-size: 20px;
+	font-family:Lucida Calligraphy;
+	text-align:left;
+	
+}
+#past-section {
+    background-color: violet;
+	font-size: 20px;
+	font-family:Lucida Calligraphy;
+	text-align: left;
+	
+}
+.section-header {
+	 background-color: green;
+	font-size: 20px;
+}
+
+.aside-header {
+	background-color: red;
+	font-family:Lucida;
+}	
+	 
+ .den {
+	 color:white;
+	 background-color:black;
+ }
+   
+  .jen{
+	  font-size:140%;
+	  color:black;
+  }
+  
+  .re{
+	  color: black;
+  }
+.img-ci{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 20px;
+	float:right;
+}
+
+  .navbar {
+	overflow: hidden;
+	background-image: url("/Images/images.jpg");
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+  
+  .navbar a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .navbar a:hover {
+	background: #ddd;
+	color: black;
+  }
+
+.ve{
+	color: rgb(7, 2, 2);
+}
+
+

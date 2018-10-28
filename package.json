@@ -1,0 +1,24 @@
+{
+  "name": "a03",
+  "version": "1.0.0",
+  "description": "my personal website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VSMDURGAPRASAD/A03.git"
+  },
+  "author": "Vinukonda Sai Manikanta Durga Prasad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VSMDURGAPRASAD/A03/issues"
+  },
+  "homepage": "https://github.com/VSMDURGAPRASAD/A03#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.5"
+  }
+}
