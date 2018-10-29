@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/VSMDURGAPRASAD/A03#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
+    "nodemailer": "^4.6.8",
     "nodemon": "^1.18.5"
   }
 }
