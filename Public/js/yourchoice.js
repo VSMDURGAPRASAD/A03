@@ -79,7 +79,7 @@ function calculate_gpa() {
         document.getElementById("dem").innerHTML = a;
     } else {
         alert(x = "Please Enter a grades " + "A" + " " + "B" + " " + "C" + " " + "F" + " to know your Semester 1 Gpa");
-        document.getElementById("Subject_1").value = null;
+        document.getElementById('Subject_1').value = null;
         document.getElementById("Subject_2").value = null;
         document.getElementById("Subject_3").value = null;
     }

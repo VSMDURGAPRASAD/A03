@@ -23,6 +23,10 @@ app.get("/yourchoice", function (req, res) {
     res.render('yourchoice')
 })
 
+app.get(function (req, res) {
+    res.render('404.ejs')
+  })
+  
 app.post("/mail", function (req, res) {
     console.log(req.body.email1)
 
